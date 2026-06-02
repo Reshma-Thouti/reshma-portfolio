@@ -51,9 +51,9 @@ export default function AboutSection() {
                 SR University, Warangal
               </p>
               <p style={{ fontFamily: "'Courier New', monospace", fontSize: "0.85rem" }}>
-                B.Tech â€” Computer Science & Engineering
+                B.Tech — Computer Science & Engineering
               </p>
-              <p className="mono-label mt-1 mb-3">Aug 2023 â€“ Present</p>
+              <p className="mono-label mt-1 mb-3">Aug 2023 — Present</p>
               <p style={{ fontFamily: "'Courier New', monospace", fontSize: "0.82rem", lineHeight: 1.6, color: "var(--fg)" }}>
                 CGPA: 9.52 | Courses: Data Structures, Operating Systems, Discrete Mathematics, Theory of Computation
               </p>
@@ -65,14 +65,14 @@ export default function AboutSection() {
             <h3 className="display-heading mb-6" style={{ fontSize: "clamp(28px, 4vw, 48px)" }}>EXPERIENCE</h3>
             <div>
               <p className="font-bold text-base mb-1" style={{ fontFamily: "'Courier New', monospace" }}>
-                Student Developer â€“ SR University
+                Student Developer   SR University
               </p>
               <p className="mono-label mt-1 mb-3">Ongoing</p>
               <ul style={{ fontFamily: "'Courier New', monospace", fontSize: "0.82rem", lineHeight: 1.7 }}>
-                <li>â€” Developed a full-stack Online Saree Shopping Website under faculty mentorship.</li>
-                <li>â€” Backend integration & MySQL database connectivity.</li>
-                <li>â€” Translating real business requirements into functional applications.</li>
-                <li>â€” Ongoing enhancements to improve UX and functionality.</li>
+                <li> Developed a full-stack Online Saree Shopping Website under faculty mentorship.</li>
+                <li> Backend integration & MySQL database connectivity.</li>
+                <li> Translating real business requirements into functional applications.</li>
+                <li> Ongoing enhancements to improve UX and functionality.</li>
               </ul>
             </div>
           </motion.div>

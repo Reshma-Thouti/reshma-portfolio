@@ -40,10 +40,10 @@ export default function ContactSection() {
             </h3>
             <p style={{ fontFamily: "'Courier New', monospace", fontSize: "0.85rem", lineHeight: 1.7, color: "var(--fg)", maxWidth: "420px" }}>
               I'm currently looking for full-stack developer roles and open-source collaborations.
-              Whether you have a role in mind, a project idea, or just want to say hi â€” my inbox is always open.
+              Whether you have a role in mind, a project idea, or just want to say hi  my inbox is always open.
             </p>
             <a href="/resume.pdf" download className="btn-outline mt-8 inline-block">
-              DOWNLOAD RESUME â†“
+              DOWNLOAD RESUME 
             </a>
           </motion.div>
 
@@ -61,7 +61,7 @@ export default function ContactSection() {
               >
                 <span className="mono-label mb-1" style={{ color: "inherit", opacity: 0.55 }}>{label}</span>
                 <span style={{ fontFamily: "'Courier New', monospace", fontSize: "0.85rem" }}>
-                  {value} â†—
+                  {value} 
                 </span>
               </motion.a>
             ))}

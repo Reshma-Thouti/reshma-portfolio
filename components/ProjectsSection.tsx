@@ -8,7 +8,7 @@ const projects = [
     date: "2026",
     title: "JOB TRACKER PRO",
     desc: "Full-stack job tracking system with session-based authentication and role-based access (User/Admin). Secure CRUD operations with JDBC, PreparedStatements, MySQL. MVC architecture deployed on Apache Tomcat 11.",
-    tech: ["Java", "Servlets", "JDBC", "MySQL", "HTML", "CSS"],
+    tech: ["Java . Servlets . JDBC . MySQL . HTML . CSS"],
     href: "https://github.com/Reshma-Thouti",
     dark: false,
   },
@@ -16,8 +16,8 @@ const projects = [
     num: "02",
     date: "2026",
     title: "LEETSYNC",
-    desc: "Chrome/Edge extension automating LeetCode & GeeksforGeeks â†’ GitHub sync using MutationObserver DOM detection, GitHub REST API, and Background Service Workers. Implemented Accepted-Only uploads, Account-Locked Sync, analytics dashboard, streak tracking, and automated repository organization.",
-    tech: ["JavaScript Â· Chrome Extensions API Â· GitHub REST API Â· MutationObserver Â· Service Workers"],
+    desc: "Chrome/Edge extension automating LeetCode & GeeksforGeeks, GitHub sync using MutationObserver DOM detection, GitHub REST API, and Background Service Workers. Implemented Accepted-Only uploads, Account-Locked Sync, analytics dashboard, streak tracking, and automated repository organization.",
+    tech: ["JavaScript · Chrome Extensions API · GitHub REST API · MutationObserver · Service Workers"],
     href: "https://github.com/Reshma-Thouti/LeetSync-Extension",
     dark: false,
 
@@ -27,7 +27,7 @@ const projects = [
     date: "2025",
     title: "ONLINE SAREE SHOPPING",
     desc: "Responsive e-commerce platform with product filters, shopping cart, wishlist, and checkout. Custom 'Saree Customization' feature for color, fabric, and design preferences.",
-    tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    tech: ["HTML . CSS . JavaScript . PHP . MySQL"],
     href: "https://github.com/Reshma-Thouti",
     dark: false,
   },
@@ -36,7 +36,7 @@ const projects = [
     date: "2026",
     title: "STUDY TASK MANAGER",
     desc: "Java desktop application with interactive GUI (Java Swing). Multi-threaded reminder system, file-based persistence, OOP principles, and modular architecture.",
-    tech: ["Java", "Java Swing", "Multi-threading", "File I/O"],
+    tech: ["Java . Java Swing . Multi-threading . File I/O"],
     href: "https://github.com/Reshma-Thouti",
     dark: false,
   },
@@ -45,7 +45,7 @@ const projects = [
     date: "2024",
     title: "SMART DUSTBIN",
     desc: "IoT-based waste classification system to sort wet and dry waste efficiently. Focused on sustainability and logical automation using electronics.",
-    tech: ["IoT", "Electronics", "Automation"],
+    tech: ["IoT . Electronics . Automation"],
     href: "https://github.com/Reshma-Thouti",
     dark: false,
   },
@@ -54,7 +54,7 @@ const projects = [
     date: "2024",
     title: "BILLING SYSTEM",
     desc: "C-based billing system to automate cosmetic store transactions. Uses structures and functions for product listing and bill generation.",
-    tech: ["C", "Data Structures", "File Handling"],
+    tech: ["C . Data Structures . File Handling"],
     href: "https://github.com/Reshma-Thouti",
     dark: false,
   },
@@ -100,7 +100,7 @@ export default function ProjectsSection() {
             >
               <div>
                 <p className="mono-label mb-3" style={{ color: p.dark ? "rgba(240,240,240,0.45)" : undefined }}>
-                  {p.num} â€” {p.date}
+                  {p.num}  {p.date}
                 </p>
                 <h3
                   className="display-heading mb-4 group-hover:text-white"
@@ -140,7 +140,7 @@ export default function ProjectsSection() {
                     letterSpacing: "0.12em",
                   }}
                 >
-                  VIEW SOURCE â†—
+                  VIEW SOURCE 
                 </a>
               </div>
             </motion.div>

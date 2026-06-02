@@ -60,7 +60,7 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="btn-outline"
           >
-            GITHUB â†—
+            GITHUB 
           </a>
           <a
             href="https://www.linkedin.com/in/reshma-thouti-913378321/"
@@ -68,7 +68,7 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="btn-outline"
           >
-            LINKEDIN â†—
+            LINKEDIN 
           </a>
         </motion.div>
       </div>

@@ -71,7 +71,7 @@ export default function Navbar() {
         style={{ width: "44px" }}
       >
         <span className="vertical-nav-text" style={{ color: "var(--muted)", fontSize: "0.58rem" }}>
-          Â© 2026
+          Ac 2026
         </span>
       </div>
     </>

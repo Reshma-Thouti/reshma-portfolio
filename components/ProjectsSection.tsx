@@ -3,14 +3,16 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const projects = [
-  {
+ 
+   {
     num: "01",
     date: "2026",
-    title: "JOB TRACKER PRO",
-    desc: "Full-stack job tracking system with session-based authentication and role-based access (User/Admin). Secure CRUD operations with JDBC, PreparedStatements, MySQL. MVC architecture deployed on Apache Tomcat 11.",
-    tech: ["Java . Servlets . JDBC . MySQL . HTML . CSS"],
-    href: "https://github.com/Reshma-Thouti",
+    title: "AI-TWIN",
+    desc: "AI-powered digital twin designed to represent my professional profile through intelligent conversations and interactive experiences. Integrated Google Gemini for contextual responses, live GitHub activity tracking, and automatic portfolio data synchronization. Built a futuristic Stark-inspired dashboard with dynamic animations, real-time statistics, and recruiter-focused navigation.",
+    tech: ["HTML · CSS · JAVASCRIPT · NODE.JS · GEMINI API · GITHUB API · VERCEL"],
+    href: "https://github.com/Reshma-Thouti/ai-twin",
     dark: false,
+
   },
    {
     num: "02",
@@ -21,6 +23,15 @@ const projects = [
     href: "https://github.com/Reshma-Thouti/LeetSync-Extension",
     dark: false,
 
+  },
+   {
+    num: "01",
+    date: "2026",
+    title: "JOB TRACKER PRO",
+    desc: "Full-stack job tracking system with session-based authentication and role-based access (User/Admin). Secure CRUD operations with JDBC, PreparedStatements, MySQL. MVC architecture deployed on Apache Tomcat 11.",
+    tech: ["Java . Servlets . JDBC . MySQL . HTML . CSS"],
+    href: "https://github.com/Reshma-Thouti",
+    dark: false,
   },
   {
     num: "03",
